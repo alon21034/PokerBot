@@ -5,7 +5,26 @@ void Solver::setTitle(string str) {
 }
 
 void Solver::solve() {
-	while(1) {
-
+	while(true) {
+		getScreenShot();
+		parse();
+		calculate();
+		action();
 	}
+}
+
+void Solver::getScreenShot() {
+
+}
+
+void Solver::parse() {
+
+}
+
+void Solver::calculate() {
+
+}
+
+void Solver::action() {
+
 }

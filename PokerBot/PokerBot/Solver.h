@@ -14,7 +14,13 @@ public:
 	void solve();
 private:
 
+	void getScreenShot();
+	void parse();
+	void calculate();
+	void action();
+
 	string mTitle;
+	int** mBitmap;
 };
 
 #endif
