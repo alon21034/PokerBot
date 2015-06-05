@@ -1,5 +1,9 @@
 #include "Solver.h"
 
+Solver::Solver() {
+
+}
+
 void Solver::setTitle(string str) {
 	mTitle = str;
 }
@@ -10,6 +14,7 @@ void Solver::solve() {
 		parse();
 		calculate();
 		action();
+		break;
 	}
 }
 
